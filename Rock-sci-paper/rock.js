@@ -50,7 +50,7 @@ function game(a, b) {
       console.log("Round", c, "won by:COMPUTER");
     } else if (userchoice === "scissor" && pcchoice === "paper") {
       a = a + 1;
-      console.log("Round", c, "won by:COMPUTER");
+      console.log("Round", c, "won by:USER");
     } else {
       console.log("Round", c, ": Tie");
     }
@@ -61,6 +61,8 @@ function game(a, b) {
 
   if (a > b) {
     console.log("USER WON OVERALL");
+  } else if (a=b){
+    console.log('TIE')
   } else {
     console.log("COMPUTER WON OVERALL");
   }
