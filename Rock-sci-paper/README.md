@@ -44,7 +44,7 @@ Through this project, I practiced:
 ## Future Improvements
 
 - Add a graphical user interface (GUI)
-- Replace `prompt()` with buttons
+- Replace prompt() with buttons
 - Display scores
 - Add animations and sound effects
 - Allow multiple rounds
